@@ -57,3 +57,9 @@ def needleman_wunsch(seq1, seq2, match_score=1, mismatch_score=-1, gap_penalty=-
 
     return align1, align2
 
+# Example usage
+seq1 = "AGTACGCA"
+seq2 = "TATGC"
+alignment1, alignment2 = needleman_wunsch(seq1, seq2)
+print("Alignment 1:", alignment1)
+print("Alignment 2:", alignment2)
