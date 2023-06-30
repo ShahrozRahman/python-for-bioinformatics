@@ -1,3 +1,4 @@
+#creating the function for the needelman algorithm
 def needleman_wunsch(seq1, seq2, match_score=1, mismatch_score=-1, gap_penalty=-1):
     # Create a matrix to store the scores
     n = len(seq1)
